@@ -1,0 +1,161 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Navigation bar styles */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+} */
+
+/* nav ul li {
+    margin: 0 20px;
+} */
+
+.clr {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+   
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #ff6f61;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Product grid styles */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    justify-items: center;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    
+}
+
+.product img {
+    height: 250px;
+    width: 250px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 1.6rem;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.product button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.product button:hover {
+    background-color: #e65c50;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Cart Modal styles */
+.cart-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-modal-content {
+    background-color: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cart-modal-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-modal-content li {
+    margin-bottom: 10px;
+}
+
+#close-cart {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#close-cart:hover {
+    background-color: #e65c50;
+}
