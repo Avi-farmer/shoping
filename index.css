@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 /* Body styles */
@@ -65,7 +66,7 @@ nav ul li a:hover {
 }
 
 .product {
-    background-color: #fff;
+    background-color: wheat;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
